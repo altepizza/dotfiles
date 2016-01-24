@@ -1,0 +1,10 @@
+directory: ~/music
+library: ~/musiclibrary.blb
+plugins: convert
+import:
+    move: yes
+    language: en
+
+convert:
+  dest: /home/fox/mp3
+  never_convert_lossy_files: yes
